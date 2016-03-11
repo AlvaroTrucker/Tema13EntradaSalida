@@ -1,0 +1,1 @@
+Mensaje Esto es una cadena, entero 25, double 1,25 y boolean true

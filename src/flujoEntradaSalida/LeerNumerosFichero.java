@@ -27,7 +27,6 @@ public class LeerNumerosFichero {
 			//while((numeros = in.readUTF()) != null)
 				
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}

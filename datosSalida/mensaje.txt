@@ -1,0 +1,2 @@
+Mensaje enviado a fichero
+Nueva linea
