@@ -4,6 +4,9 @@
 	<classpathentry kind="src" path="ficheros"/>
 	<classpathentry kind="src" path="datosEntrada"/>
 	<classpathentry kind="src" path="datosSalida"/>
+	<classpathentry kind="src" path="Ejercicios"/>
+	<classpathentry kind="src" path="entradaEjercicios"/>
+	<classpathentry kind="src" path="salidaEjercicios"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
