@@ -1,4 +1,4 @@
-package flujoEntradaSalida;
+/*package flujoEntradaSalida;
 
 import java.io.BufferedInputStream;
 import java.io.File;
@@ -41,4 +41,4 @@ public class CopiarArchivos2 {
 		}
 	}
 
-}
+}*/
