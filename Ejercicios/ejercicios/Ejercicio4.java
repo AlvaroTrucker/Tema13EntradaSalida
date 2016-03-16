@@ -1,10 +1,13 @@
 package ejercicios;
 
 public class Ejercicio4 {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	//atributos
+	private String titulo;
+	private String autor;
+	private String isbn;
+	
+	@Override
+	public String toString() {
+		return "Ejercicio4 [titulo=" + titulo + ", autor=" + autor + ", isbn=" + isbn + "]";
 	}
-
 }
