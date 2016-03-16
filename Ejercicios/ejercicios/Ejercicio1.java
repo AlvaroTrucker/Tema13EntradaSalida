@@ -1,22 +1,29 @@
 package ejercicios;
 
-import java.io.File;
+import java.io.DataOutputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
 public class Ejercicio1 {
 
 	public static void main(String[] args) {
-		File outFile = new File("salidaEjercicios/ejercicioFileOutputStream.txt");
-		try(FileOutputStream out = new FileOutputStream(outFile);) {
-			for (int i = 20; i <= 40; i++) {
-				out.write(i);
+		try (FileOutputStream FileOut = new FileOutputStream("salidaEjercicios/ejercicioFileOutputStream.txt");){
+			for (int i = 250; i <=260; i++) {
+				FileOut.write(i);
+				FileOut.flush();
 			}
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-
+		try (DataOutputStream DataOut = new DataOutputStream(new FileOutputStream("salidaEjercicios/ejercicioDataOutputStream.txt"));){
+			for (int i = 20; i <=40; i++) {
+				DataOut.writeInt(i);
+				DataOut.flush();
+			}
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		
 	}
 
 }
